@@ -8,9 +8,8 @@
 
 body {
   width: 100%;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
-
 
 .header {
   display: flex;
@@ -89,7 +88,8 @@ body {
   line-height: 32px;
 }
 
-.images, .images2 {
+.images,
+.images2 {
   display: flex;
   align-items: center;
   padding-top: 25px;
@@ -104,8 +104,6 @@ body {
   overflow: auto;
 }
 
-
-
 .box-main .images2 {
   display: flex;
   flex-direction: column;
@@ -115,9 +113,7 @@ body {
 
 .box-main .images2 .service-image img {
   margin: 25px;
-
 }
-
 
 .images3 {
   display: flex;
@@ -126,12 +122,14 @@ body {
 
 .images3 .service-image3 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .images3 .service-image3 img {
   margin: 15px;
+  width: 282px;
+  height: 251px;
 }
 
 .content-4 {
@@ -153,13 +151,12 @@ body {
 
 .content-4 .text-description #upper {
   text-transform: uppercase;
-  font-weight: 900
+  font-weight: 900;
 }
 
 .content-4 .text-description .bold {
   font-weight: 900;
 }
-
 
 .footer {
   display: flex;
