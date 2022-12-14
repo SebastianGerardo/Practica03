@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Montserrat:ital,wght@0,700;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: 'Roboto';
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9ecefa;
+  height: 65px;
+}
+
+.header span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fascinate", cursive;
+  color: #87119a;
+  margin-left: 20px;
+  background-color: #9ecefa;
+}
+
+.header span p {
+  font-weight: 900;
+  font-size: 26px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  background-color: #9ecefa;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 15px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+  color: #87119a;
+}
+
+.main {
+  width: 90%;
+}
+
+.box-main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.box-main .text .main-text {
+  display: flex;
+  align-items: center;
+  margin-left: 36px;
+  padding-left: 18px;
+  height: 35px;
+  color: #87119a;
+  text-transform: uppercase;
+  border-left: 6px solid #87119a;
+}
+
+.box-main p {
+  margin: 15px 0 0 35px;
+  line-height: 32px;
+}
+
+.images, .images2 {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.images img {
+  margin-left: 28px;
+  width: 410px;
+  height: auto;
+  overflow: auto;
+}
+
+
+
+.box-main .images2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-main .images2 .service-image img {
+  margin: 25px;
+
+}
+
+
+.images3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.images3 .service-image3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images3 .service-image3 img {
+  margin: 15px;
+}
+
+.content-4 {
+  display: flex;
+}
+
+.content-4 .images4 {
+  margin: 44px;
+}
+
+.content-4 .text-description {
+  padding-top: 44px;
+}
+
+.content-4 .text-description p {
+  margin: 0;
+  padding: 10px 10px 10px 0;
+}
+
+.content-4 .text-description #upper {
+  text-transform: uppercase;
+  font-weight: 900
+}
+
+.content-4 .text-description .bold {
+  font-weight: 900;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 35px;
+  width: 100%;
+  background-color: #9ecefa;
+}
+
+.footer p strong {
+  color: #87119a;
+}
